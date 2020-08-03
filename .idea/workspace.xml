@@ -1,0 +1,1256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bd9fa1ba-a8a8-4b37-b7ec-407c161fde06" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="naginiAutomation" />
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/nagini/controllers/actions/RepaymentCalculatorActionsController.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="2363">
+                  <caret line="148" column="71" selection-start-line="148" selection-start-column="71" selection-end-line="148" selection-end-column="71" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/nagini/controllers/verifiers/ManagePaymentDetailsVerifyController.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="17">
+                  <caret line="1" selection-start-line="1" selection-end-line="1" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/nagini/controllers/actions/ManagePaymentDetailsActionsController.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="561">
+                  <caret line="40" column="51" selection-start-line="40" selection-start-column="51" selection-end-line="40" selection-end-column="51" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/com/nagini/Pages/AccountSummaryTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="136">
+                  <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/nagini/Pages/RepaymentCalculator.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="374">
+                  <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#524#525#0" expanded="true" />
+                    <element signature="e#547#548#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/nagini/Pages/TestData.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="459">
+                  <caret line="37" selection-start-line="37" selection-end-line="37" />
+                  <folding>
+                    <element signature="e#641#642#0" expanded="true" />
+                    <element signature="e#677#678#0" expanded="true" />
+                    <element signature="e#753#754#0" expanded="true" />
+                    <element signature="e#1032#1033#0" expanded="true" />
+                    <element signature="e#1063#1064#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/nagini/controllers/verifiers/RepaymentCalculatorVerifyController.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="510">
+                  <caret line="37" column="84" selection-start-line="37" selection-start-column="84" selection-end-line="37" selection-end-column="84" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/Invoker.class">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="7684">
+                  <caret line="495" selection-start-line="495" selection-end-line="495" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/nagini/Pages/MakePayment.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="425">
+                  <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#328#329#0" expanded="true" />
+                    <element signature="e#348#349#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/com/nagini/Pages/MakePaymentTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="289">
+                  <caret line="18" selection-start-line="18" selection-end-line="18" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/test/java/com/nagini/Pages/VerifyManagePaymentDetailsPage.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="606">
+                  <caret line="43" column="7" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Gradle Kotlin DSL Build Script" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>threa</find>
+      <find>thread</find>
+      <find>accountS</find>
+      <find>2</find>
+      <find>assert</find>
+      <find>tra</find>
+      <find>redemptio</find>
+      <find>filter</find>
+      <find>AuthenticationActions</find>
+      <find>EXPECTED_ROWS_IN_DATE_FILTER</find>
+      <find>AccountSummary</find>
+      <find>EXPECTED_ROWS_IN_TRANSACTION_TYPE_FILTER</find>
+      <find>paymentSliderContent</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="C:/" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/nagini/controllers/actions/PageActionsController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nagini/controllers/actions/AccountSummaryActionController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/nagini/Pages/PageTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nagini/controllers/actions/LandingPageActionsController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/nagini/Pages/VerifyNaginiLoginPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nagini/controllers/verifiers/LandingPageVerifyController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nagini/controllers/verifiers/AuthenticationVerifyController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nagini/controllers/verifiers/EditProfileVerifyController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nagini/Pages/RegisterProfile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nagini/controllers/actions/EditProfileActionsController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nagini/controllers/actions/RegisterProfileActionsController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/nagini/Pages/RegistrationTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nagini/Pages/TestData.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/nagini/Pages/LandingPageTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/nagini/Pages/EditProfileTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/nagini/Pages/BaseTestClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nagini/Pages/Authentication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nagini/controllers/actions/AuthenticationActionsController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nagini/Pages/Login.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/nagini/Pages/AuthenticationTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nagini/controllers/verifiers/LoginVerifyController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nagini/controllers/actions/LoginActionsController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nagini/Pages/MakePaymentPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nagini/Pages/LandingPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nagini/controllers/verifiers/MakePaymentVerifyController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nagini/controllers/actions/MakePaymentActionsController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/nagini/Pages/VerifyMakePaymentPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/nagini/Pages/VerifyRepaymentCalculatorPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nagini/controllers/verifiers/RegisterProfileVerifyController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nagini/Pages/RepaymentCalculatorPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nagini/controllers/actions/RepaymentCalculatorActionController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nagini/controllers/actions/AccountSummaryActionsController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nagini/Pages/RepaymentCalculator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nagini/controllers/AccountSummaryVerifyController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nagini/Pages/AccountSummary.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nagini/Pages/TransactionDate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nagini/controllers/actions/AccountSummaryGetTransactionsController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/nagini/Pages/AccountSummaryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nagini/controllers/verifiers/AccountSummaryVerifyController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nagini/controllers/actions/fees.json" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nagini/controllers/actions/ContractTestRunnerIT.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nagini/controllers/verifiers/RepaymentCalculatorVerifyController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/nagini/Pages/RepaymentCalculatorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nagini/controllers/actions/RepaymentCalculatorActionsController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nagini/Pages/ManagePaymentDetailsActionsController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nagini/Pages/ManagePaymentDetails.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nagini/Pages/MakePayment.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/nagini/Pages/MakePaymentTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nagini/controllers/actions/ManagePaymentDetailsActionsController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/nagini/Pages/VerifyManagePaymentDetailsPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nagini/controllers/verifiers/ManagePaymentDetailsVerifyController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="DhmLeODi" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Profiles" type="6783ec58:MavenProjectsStructure$ProfilesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="naginiAutomation" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="naginiAutomation" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="naginiAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="naginiAutomation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="naginiAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="naginiAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="naginiAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="naginiAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="naginiAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="naginiAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="naginiAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="naginiAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="nagini" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="naginiAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="naginiAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="nagini" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="naginiAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="naginiAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="nagini" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="actions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="naginiAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="naginiAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="nagini" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="verifiers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="naginiAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="naginiAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="nagini" type="462c0819:PsiDirectoryNode" />
+              <item name="Pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="naginiAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="naginiAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="naginiAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="naginiAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="naginiAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="naginiAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="naginiAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="naginiAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="C:/naginiDev" />
+    <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.nagini.controllers.verifiers" />
+      <recent name="com.nagini.controllers.actions" />
+      <recent name="com.nagini.Pages" />
+      <recent name="com.nagini.controllers" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.nagini.Pages" />
+      <recent name="com.nagini.controllers.verifiers" />
+      <recent name="com.nagini.controllers.actions" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\dev\naginiAutomation\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.VerifyManagePaymentDetailsPage.testResetMonthlyPayment">
+    <configuration name="RepaymentCalculatorTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="naginiAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nagini.Pages.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nagini.Pages" />
+      <option name="MAIN_CLASS_NAME" value="com.nagini.Pages.RepaymentCalculatorTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RepaymentCalculatorTest.testRecalculatorPage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="naginiAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nagini.Pages.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nagini.Pages" />
+      <option name="MAIN_CLASS_NAME" value="com.nagini.Pages.RepaymentCalculatorTest" />
+      <option name="METHOD_NAME" value="testRecalculatorPage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VerifyManagePaymentDetailsPage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="naginiAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nagini.Pages.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nagini.Pages" />
+      <option name="MAIN_CLASS_NAME" value="com.nagini.Pages.VerifyManagePaymentDetailsPage" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VerifyManagePaymentDetailsPage.testMonthlyPaymentAmountIsDisplayed" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="naginiAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nagini.Pages.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nagini.Pages" />
+      <option name="MAIN_CLASS_NAME" value="com.nagini.Pages.VerifyManagePaymentDetailsPage" />
+      <option name="METHOD_NAME" value="testMonthlyPaymentAmountIsDisplayed" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VerifyManagePaymentDetailsPage.testResetMonthlyPayment" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="naginiAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nagini.Pages.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nagini.Pages" />
+      <option name="MAIN_CLASS_NAME" value="com.nagini.Pages.VerifyManagePaymentDetailsPage" />
+      <option name="METHOD_NAME" value="testResetMonthlyPayment" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.VerifyManagePaymentDetailsPage.testResetMonthlyPayment" />
+        <item itemvalue="TestNG.VerifyManagePaymentDetailsPage" />
+        <item itemvalue="TestNG.VerifyManagePaymentDetailsPage.testMonthlyPaymentAmountIsDisplayed" />
+        <item itemvalue="TestNG.RepaymentCalculatorTest" />
+        <item itemvalue="TestNG.RepaymentCalculatorTest.testRecalculatorPage" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="RustProjectSettings">
+    <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+    <option name="version" value="2" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bd9fa1ba-a8a8-4b37-b7ec-407c161fde06" name="Default Changelist" comment="" />
+      <created>1592488078378</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592488078378</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="RepaymentCalculatorTest_testRecalculatorPage - 2020.07.29 at 15h 04m 55s.xml">
+      <configuration name="RepaymentCalculatorTest.testRecalculatorPage" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="RepaymentCalculatorTest - 2020.07.29 at 15h 06m 05s.xml">
+      <configuration name="RepaymentCalculatorTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="RepaymentCalculatorTest_testRecalculatorPage - 2020.07.29 at 15h 17m 22s.xml">
+      <configuration name="RepaymentCalculatorTest.testRecalculatorPage" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="RepaymentCalculatorTest - 2020.07.29 at 15h 19m 47s.xml">
+      <configuration name="RepaymentCalculatorTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="RepaymentCalculatorTest - 2020.07.29 at 15h 22m 54s.xml">
+      <configuration name="RepaymentCalculatorTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="VerifyManagePaymentDetailsPage_testMonthlyPaymentAmountIsDisplayed - 2020.07.29 at 16h 00m 17s.xml">
+      <configuration name="VerifyManagePaymentDetailsPage.testMonthlyPaymentAmountIsDisplayed" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="VerifyManagePaymentDetailsPage_testMonthlyPaymentAmountIsDisplayed - 2020.07.29 at 16h 02m 12s.xml">
+      <configuration name="VerifyManagePaymentDetailsPage.testMonthlyPaymentAmountIsDisplayed" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="VerifyManagePaymentDetailsPage - 2020.07.29 at 16h 15m 28s.xml">
+      <configuration name="VerifyManagePaymentDetailsPage" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="VerifyManagePaymentDetailsPage_testResetMonthlyPayment - 2020.07.29 at 16h 39m 29s.xml">
+      <configuration name="VerifyManagePaymentDetailsPage.testResetMonthlyPayment" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="VerifyManagePaymentDetailsPage_testResetMonthlyPayment - 2020.07.29 at 16h 54m 59s.xml">
+      <configuration name="VerifyManagePaymentDetailsPage.testResetMonthlyPayment" configurationId="TestNG" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4983871" visible="true" weight="0.24586667" />
+      <window_info id="Structure" order="1" sideWeight="0.50080776" side_tool="true" weight="0.17226666" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Project Explorer" order="4" weight="0.3296" />
+      <window_info id="Favorites" order="5" sideWeight="0.5016129" side_tool="true" weight="0.17226666" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="UI Designer" order="7" />
+      <window_info id="Job Explorer" order="8" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32827735" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.40303358" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="SonarLint" order="9" />
+      <window_info anchor="bottom" id="Anonymous Apex" order="10" />
+      <window_info anchor="bottom" id="Log Analyzer" order="11" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32827735" />
+      <window_info anchor="bottom" id="SOQL Query" order="13" />
+      <window_info anchor="bottom" id="Console" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Cargo" order="1" weight="0.3296" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.2496" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.3296" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="TCPMON" order="8" weight="0.3296" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+    </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/nagini/Pages/TestDataBuilder.java</url>
+          <line>2</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/nagini/controllers/actions/AccountSummaryActionsController.java</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/nagini/Pages/AccountSummaryTest.java</url>
+          <line>93</line>
+          <properties />
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/nagini/Pages/AuthenticationTest.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/nagini/controllers/actions/PageActionsController.java</url>
+          <line>11</line>
+          <properties />
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/nagini/Pages/LandingPageTest.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/nagini/controllers/actions/LandingPageActionsController.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/nagini/Pages/AuthenticationTest.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/nagini/Pages/MakePaymentTest.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/nagini/controllers/actions/AccountSummaryGetTransactionsController.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/nagini/Pages/AccountSummaryTest.java</url>
+          <line>66</line>
+          <properties />
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/nagini/Pages/AccountSummaryTest.java</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/nagini/controllers/verifiers/AccountSummaryVerifyController.java</url>
+          <line>72</line>
+          <properties />
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/nagini/Pages/RepaymentCalculatorTest.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/nagini/controllers/verifiers/RepaymentCalculatorVerifyController.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/nagini/controllers/actions/PageActionsController.java</url>
+          <line>16</line>
+          <properties class="com.nagini.controllers.actions.PageActionsController" method="getHeaderElements">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/com/nagini/Pages/AccountSummaryTest.java</url>
+          <line>78</line>
+          <properties class="com.nagini.Pages.AccountSummaryTest" method="testFilterByTransactionArrears">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/com/nagini/Pages/AuthenticationTest.java</url>
+          <line>28</line>
+          <properties class="com.nagini.Pages.AuthenticationTest">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/com/nagini/Pages/AccountSummaryTest.java</url>
+          <line>43</line>
+          <properties class="com.nagini.Pages.AccountSummaryTest" method="testFilterByDate">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="TestNG">
+        <watch expression="slot_5" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nagini/controllers/verifiers/EditProfileVerifyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/TestResult.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="133" selection-start-line="133" selection-end-line="133" />
+          <folding>
+            <element signature="e#3798#3799#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nagini/controllers/verifiers/AuthenticationVerifyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nagini/controllers/verifiers/LandingPageVerifyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/nagini/Pages/RegistrationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="46" column="29" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nagini/controllers/actions/LandingPageActionsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nagini/controllers/actions/AuthenticationActionsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1040#1041#0" expanded="true" />
+            <element signature="e#1076#1077#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/nagini/Pages/LandingPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="39" column="33" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nagini/Pages/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+            <element signature="e#378#379#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nagini/controllers/actions/EditProfileActionsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="16" column="42" selection-start-line="15" selection-start-column="2" selection-end-line="16" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nagini/controllers/verifiers/LoginVerifyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="31" column="61" selection-start-line="31" selection-start-column="61" selection-end-line="31" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nagini/controllers/actions/MakePaymentActionsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="25" column="68" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nagini/Pages/LandingPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/nagini/Pages/BaseTestClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="52" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nagini/Pages/RegisterProfile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nagini/controllers/verifiers/MakePaymentVerifyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/RepaymentCalculatorTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nagini/controllers/verifiers/PageVerifiyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="14" column="42" selection-start-line="13" selection-start-column="1" selection-end-line="14" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/nagini/Pages/EditProfileTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="21" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nagini/Pages/Authentication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nagini/controllers/actions/LoginActionsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="841">
+          <caret line="79" column="30" selection-start-line="79" selection-start-column="30" selection-end-line="79" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nagini/controllers/actions/RegisterProfileActionsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="841">
+          <caret line="79" column="42" selection-start-line="79" selection-start-column="42" selection-end-line="79" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nagini/controllers/verifiers/RegisterProfileVerifyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nagini/controllers/AccountSummaryVerifyController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nagini/Pages/TransactionDate.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/nagini/Pages/AuthenticationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="22" column="23" lean-forward="true" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nagini/Pages/AccountSummary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#552#553#0" expanded="true" />
+            <element signature="e#575#576#0" expanded="true" />
+            <element signature="e#653#654#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nagini/controllers/actions/AccountSummaryGetTransactionsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/nagini/Pages/PageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="63" column="20" lean-forward="true" selection-start-line="63" selection-start-column="20" selection-end-line="63" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nagini/controllers/actions/PageActionsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nagini/controllers/actions/AccountSummaryActionsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nagini/controllers/verifiers/AccountSummaryVerifyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="773">
+          <caret line="89" column="56" selection-start-line="89" selection-start-column="56" selection-end-line="89" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/MethodInvocationHelper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="108" selection-start-line="108" selection-end-line="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nagini/Pages/RepaymentCalculatorPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nagini/controllers/actions/ContractTestRunnerIT.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/nagini/Pages/RepaymentCalculatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nagini/Pages/ManagePaymentDetailsActionsController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nagini/Pages/ManagePaymentDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="29" column="51" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#386#387#0" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+            <element signature="e#466#467#0" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nagini/Pages/ManagePaymentDetailsPage.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nagini/controllers/actions/RepaymentCalculatorActionsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2363">
+          <caret line="148" column="71" selection-start-line="148" selection-start-column="71" selection-end-line="148" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nagini/controllers/actions/ManagePaymentDetailsActionsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="40" column="51" selection-start-line="40" selection-start-column="51" selection-end-line="40" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/nagini/Pages/AccountSummaryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nagini/Pages/RepaymentCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#524#525#0" expanded="true" />
+            <element signature="e#547#548#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nagini/Pages/TestData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="e#641#642#0" expanded="true" />
+            <element signature="e#677#678#0" expanded="true" />
+            <element signature="e#753#754#0" expanded="true" />
+            <element signature="e#1032#1033#0" expanded="true" />
+            <element signature="e#1063#1064#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nagini/controllers/verifiers/RepaymentCalculatorVerifyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="37" column="84" selection-start-line="37" selection-start-column="84" selection-end-line="37" selection-end-column="84" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/Invoker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7684">
+          <caret line="495" selection-start-line="495" selection-end-line="495" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nagini/Pages/MakePayment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#328#329#0" expanded="true" />
+            <element signature="e#348#349#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/nagini/Pages/MakePaymentTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/nagini/Pages/VerifyManagePaymentDetailsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="606">
+          <caret line="43" column="7" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nagini/controllers/verifiers/ManagePaymentDetailsVerifyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
