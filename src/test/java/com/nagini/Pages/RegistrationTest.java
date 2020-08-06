@@ -25,11 +25,11 @@ public class RegistrationTest extends BaseTestClass {
     .setEmail("veloen4@googlemail.com")
       .setPassword("String1*")
       .setCode("code1234")
-      .setFromTransactionDate("22-03-2018")
-      .setToTransactionDate("22-12-2018")
+      .setFromTransactionDate("28-04-2018")
+      .setToTransactionDate("30-05-2018")
       .setPaymentDate("20/02/2020")
       .setBalance("£21,756.90")
-      .setInterest("8.29%")
+      .setInterest("8.05%")
       .setInstalment("£229.09")
       .build();
 }

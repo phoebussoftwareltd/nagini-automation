@@ -18,11 +18,10 @@ public class MakePaymentTest extends BaseTestClass {
   public void testMethodOfPaymentPageIsDisplayedFromSideBar() throws InterruptedException {
 
     makePaymentPage.act()
-      .clickOnMakePaymentLink()
-      .clickOnRepaymentCalculatorLink();
+      .clickOnMakePaymentLink();
 
     makePaymentPage.verify()
-      .verifyRepaymentCalculatorLink();
+      .makePaymentIsDisplayed();
   }
 
 

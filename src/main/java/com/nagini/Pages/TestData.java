@@ -150,11 +150,5 @@ public class TestData {
       return new TestData(email, password, newPassword, code, fromTransactionDate, toTransactionDate, paymentDate,
         balance, interest, instalment, securityAnswer);
     }
-
-
-
   }
-
-
-
 }

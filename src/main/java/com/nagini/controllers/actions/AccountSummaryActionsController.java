@@ -38,9 +38,10 @@ public class AccountSummaryActionsController {
   }
 
   public AccountSummaryActionsController removeFilter() throws InterruptedException {
-    Thread.sleep(2000);
-    wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("removeFilterButton")));
-    driver.findElement(By.id("removeFilterButton")).click();
+    Thread.sleep(1000);
+    if (driver.findElement(By.id("removeFilterButton")).isDisplayed()) {
+      driver.findElement(By.id("removeFilterButton")).click();
+    }
     return this;
   }
 

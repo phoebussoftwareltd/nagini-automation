@@ -11,9 +11,9 @@ public class AccountSummaryTest extends BaseTestClass {
 
   AccountSummary accountSummary = AccountSummary.getAccountSummary();
 
-  private final static int TOTAL_NUMBER_OF_TRANSACTIONS = 32;
-  private static final int EXPECTED_ROWS_IN_DATE_FILTER = 16;
-  private static final int EXPECTED_ROWS_IN_TRANSACTION_TYPE_FILTER = 17;
+  private final static int TOTAL_NUMBER_OF_TRANSACTIONS = 71;
+  private static final int EXPECTED_ROWS_IN_DATE_FILTER = 14;
+  private static final int EXPECTED_ROWS_IN_TRANSACTION_TYPE_FILTER = 41;
   private static final int EXPECTED_ROWS_IN_ARREARS_TYPE_FILTER = 0;
 
   File file = null;
@@ -67,7 +67,6 @@ public class AccountSummaryTest extends BaseTestClass {
     int initialTransactions = accountSummary.get().getNumRowsInFilter();
 
     accountSummary.act()
-      .removeFilter()
       .filterByTypeTransactions();
 
     int filteredTransactions = accountSummary.get().getNumRowsInFilter();
@@ -86,6 +85,9 @@ public class AccountSummaryTest extends BaseTestClass {
     int filteredTransactions = accountSummary.get().getNumRowsInFilter();
 
     Assert.assertEquals(filteredTransactions, EXPECTED_ROWS_IN_ARREARS_TYPE_FILTER);
+
+    accountSummary.act()
+      .removeFilter();
   }
 
   @Test
@@ -97,23 +99,23 @@ public class AccountSummaryTest extends BaseTestClass {
 
     Thread.sleep(1000);
     String controlsText = accountSummary.get().getMaterialLabelText();
-    Assert.assertEquals(controlsText,"11 - 20 of 32");
+    Assert.assertEquals(controlsText,"11 - 20 of 71");
 
     accountSummary.act().materialControlsLast();
     Thread.sleep(1000);
     controlsText = accountSummary.get().getMaterialLabelText();
-    Assert.assertEquals(controlsText,"31 - 32 of 32");
+    Assert.assertEquals(controlsText,"71 - 71 of 71");
 
     accountSummary.act().materialControlsPrevious();
     Thread.sleep(1000);
     controlsText = accountSummary.get().getMaterialLabelText();
-    Assert.assertEquals(controlsText,"21 - 30 of 32");
+    Assert.assertEquals(controlsText,"61 - 70 of 71");
 
 
     accountSummary.act().materialControlsFirst();
     Thread.sleep(1000);
     controlsText = accountSummary.get().getMaterialLabelText();
-    Assert.assertEquals(controlsText,"1 - 10 of 32");
+    Assert.assertEquals(controlsText,"1 - 10 of 71");
   }
 
 }

@@ -26,7 +26,6 @@ public class VerifyManagePaymentDetailsPage extends BaseTestClass {
   public void testResetMonthlyPayment() throws InterruptedException {
     managePaymentDetails.act()
       .clickOnManagePaymentDetails()
-      .clickUndo()
       .enterNewMonthlyPayment();
 
     managePaymentDetails.verify()
@@ -39,13 +38,21 @@ public class VerifyManagePaymentDetailsPage extends BaseTestClass {
     managePaymentDetails.act()
       .clickOnManagePaymentDetails()
       .clickPaymentDateTab()
-      .clickUndo()
       .enterNewPaymentDay()
       .clickRequestDateChange();
 
     managePaymentDetails.verify()
-      .repaymentMethodMessageAcknowledged();
+      .repaymentDateMessageAcknowledged();
+  }
 
+  @Test
+  public void testDirectDebitDetails() throws InterruptedException {
+    managePaymentDetails.act()
+      .clickOnManagePaymentDetails()
+      .clickDirectDebitTab();
+
+    managePaymentDetails.verify()
+      .directDebitDetails();
   }
 }
 

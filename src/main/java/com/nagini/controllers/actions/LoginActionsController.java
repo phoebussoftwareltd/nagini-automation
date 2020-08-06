@@ -13,7 +13,7 @@ public class LoginActionsController {
   WebDriver driver = getChromeDriver();
   WebDriverWait wait = getWebDriverWait();
 
-  private static String url = "http://nagini-test-ui.phoebus-internal.com/";
+  private static String url = "https://dev-ui.psl-nagini.com/";
 
 
   public LoginActionsController loginUser(String email, String password, String code) {
