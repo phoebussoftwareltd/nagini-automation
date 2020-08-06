@@ -6,8 +6,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import static com.nagini.Pages.DriverFactory.getChromeDriver;
-import static com.nagini.Pages.DriverFactory.getWebDriverWait;
+import static com.nagini.pages.DriverFactory.getChromeDriver;
+import static com.nagini.pages.DriverFactory.getWebDriverWait;
 
 public class RedemptionsActionsController {
   WebDriver driver = getChromeDriver();

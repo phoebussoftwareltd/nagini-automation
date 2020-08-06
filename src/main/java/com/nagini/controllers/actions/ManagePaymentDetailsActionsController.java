@@ -6,8 +6,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import static com.nagini.Pages.DriverFactory.getChromeDriver;
-import static com.nagini.Pages.DriverFactory.getWebDriverWait;
+import static com.nagini.pages.DriverFactory.getChromeDriver;
+import static com.nagini.pages.DriverFactory.getWebDriverWait;
 
 public class ManagePaymentDetailsActionsController {
 
@@ -34,7 +34,7 @@ public class ManagePaymentDetailsActionsController {
 
   public ManagePaymentDetailsActionsController enterNewMonthlyPayment() throws InterruptedException {
     Thread.sleep( 1000 );
-    Boolean paymentAmountIsVisible = driver.findElement(By.id("mp-newPayment")).isDisplayed();
+    boolean paymentAmountIsVisible = driver.findElement(By.id("mp-newPayment")).isDisplayed();
     if(!paymentAmountIsVisible){
       clickUndo();
     }
@@ -52,7 +52,7 @@ public class ManagePaymentDetailsActionsController {
 
   public ManagePaymentDetailsActionsController enterNewPaymentDay() throws InterruptedException {
     Thread.sleep( 1000 );
-    Boolean datePickerIsVisible = driver.findElement(By.xpath("//*[@id=\"paymentDate\"]/div/div[2]/div/form/div/div/div[18]")).isDisplayed();
+    boolean datePickerIsVisible = driver.findElement(By.xpath("//*[@id=\"paymentDate\"]/div/div[2]/div/form/div/div/div[18]")).isDisplayed();
     if(!datePickerIsVisible){
       clickUndo();
     }

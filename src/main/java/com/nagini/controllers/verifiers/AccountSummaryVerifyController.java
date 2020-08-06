@@ -1,7 +1,6 @@
 package com.nagini.controllers.verifiers;
 
 
-import com.nagini.Pages.AccountSummary;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -11,14 +10,12 @@ import org.testng.Assert;
 
 import java.io.File;
 import java.text.ParseException;
-import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
-import java.util.ArrayList;
 import java.util.List;
 
-import static com.nagini.Pages.DriverFactory.getChromeDriver;
-import static com.nagini.Pages.DriverFactory.getWebDriverWait;
+import static com.nagini.pages.DriverFactory.getChromeDriver;
+import static com.nagini.pages.DriverFactory.getWebDriverWait;
 import static java.util.stream.Collectors.toList;
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
@@ -47,9 +44,9 @@ public class AccountSummaryVerifyController {
     File dir = new File(downloadPath);
     File[] dir_contents = dir.listFiles();
 
-    for (int i = 0; i < dir_contents.length; i++) {
-      if (dir_contents[i].getName().equals(fileName))
-        return flag=true;
+    for (File dir_content : dir_contents) {
+      if (dir_content.getName().equals( fileName ))
+        return flag = true;
     }
 
     return flag;
@@ -94,9 +91,6 @@ public class AccountSummaryVerifyController {
 
   private boolean comp_Dates(LocalDate date, LocalDate fDate, LocalDate tDate) {
 
-    if (date.compareTo(fDate) >= 0 && date.compareTo(tDate) <= 0) {
-      return true;
-    }
-    return false;
+    return date.compareTo( fDate ) >= 0 && date.compareTo( tDate ) <= 0;
   }
 }

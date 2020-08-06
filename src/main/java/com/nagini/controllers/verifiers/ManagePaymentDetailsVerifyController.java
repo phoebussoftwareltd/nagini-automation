@@ -5,8 +5,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import static com.nagini.Pages.DriverFactory.getChromeDriver;
-import static com.nagini.Pages.DriverFactory.getWebDriverWait;
+import static com.nagini.pages.DriverFactory.getChromeDriver;
+import static com.nagini.pages.DriverFactory.getWebDriverWait;
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 
@@ -30,15 +30,6 @@ public class ManagePaymentDetailsVerifyController {
     assertEquals( messageAcknowledged, "Request sent, we will contact you soon" );
     return this;
 
-  }
-
-
-  public ManagePaymentDetailsVerifyController repaymentDateMessageAcknowledged() throws InterruptedException {
-    Thread.sleep( 1000 );
-    wait.until( ExpectedConditions.visibilityOfElementLocated( By.xpath( "//*[@id=\"mp-changeResponse\"]/span" ) ) );
-    String messageAcknowledged = driver.findElement( By.xpath( "//*[@id=\"mp-changeResponse\"]/span" ) ).getText();
-    assertEquals( messageAcknowledged, "Request sent, we will contact you soon" );
-    return this;
   }
 
   public ManagePaymentDetailsVerifyController directDebitDetails() {

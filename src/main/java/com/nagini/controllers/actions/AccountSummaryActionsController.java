@@ -8,8 +8,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.File;
 
-import static com.nagini.Pages.DriverFactory.getChromeDriver;
-import static com.nagini.Pages.DriverFactory.getWebDriverWait;
+import static com.nagini.pages.DriverFactory.getChromeDriver;
+import static com.nagini.pages.DriverFactory.getWebDriverWait;
 
 public class AccountSummaryActionsController {
 

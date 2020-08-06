@@ -1,15 +1,14 @@
 package com.nagini.controllers.actions;
 
-import com.nagini.Pages.AccountSummary;
-import com.nagini.Pages.Login;
+import com.nagini.pages.AccountSummary;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import static com.nagini.Pages.AccountSummary.getAccountSummary;
-import static com.nagini.Pages.DriverFactory.getChromeDriver;
-import static com.nagini.Pages.DriverFactory.getWebDriverWait;
+import static com.nagini.pages.AccountSummary.getAccountSummary;
+import static com.nagini.pages.DriverFactory.getChromeDriver;
+import static com.nagini.pages.DriverFactory.getWebDriverWait;
 
 public class AuthenticationActionsController {
 
