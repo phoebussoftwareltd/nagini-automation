@@ -18,7 +18,7 @@ public class RepaymentCalculatorTest extends BaseTestClass {
     repaymentCalculator.act()
       .clickRepaymentCalculatorLink()
       .selectSinglePaymentTab()
-      .selectUseSlider()
+      //.selectUseSlider()
       .useSliderOption();
 
     repaymentCalculator.verify()
@@ -39,10 +39,10 @@ public class RepaymentCalculatorTest extends BaseTestClass {
 
   @Test
   public void testEditMonthlyPaymentOnRecurringTab() throws InterruptedException {
-//    repaymentCalculator.act()
-//      .clickRepaymentCalculatorLink()
-//      .selectRecurringPaymentTab()
-//      .clickOnEditMonthlyPayment();
+    repaymentCalculator.act()
+      .clickRepaymentCalculatorLink()
+      .selectRecurringPaymentTab()
+      .clickOnEditMonthlyPayment();
 
    // repaymentCalculator.verify()
    //   .newRepaymentTerm();
@@ -56,21 +56,21 @@ public class RepaymentCalculatorTest extends BaseTestClass {
       .checkIfRequestMadeRecentlyAndReset()
       .clickOnRedemptionRequest();
 
-     repaymentCalculator.verify()
-      .requestSentMessage();
+    // repaymentCalculator.verify()
+    //  .requestSentMessage();
   }
 
   @Test
   public void testMakePaymentOption() throws InterruptedException {
-//        repaymentCalculator.act()
-//          .clickRepaymentCalculatorLink()
-//          .selectSinglePaymentTab()
-//          .clickMakePayment();
-//
-//        repaymentCalculator.verify()
-//          .paymentDetailsAreDisplayed();
-//
-//        repaymentCalculator.act()
-//          .closeMakePaymentForm();
+        repaymentCalculator.act()
+          .clickRepaymentCalculatorLink()
+          .selectSinglePaymentTab()
+          .clickMakePayment();
+
+        repaymentCalculator.verify()
+          .paymentDetailsAreDisplayed();
+
+        repaymentCalculator.act()
+          .closeMakePaymentForm();
   }
 }

@@ -88,10 +88,10 @@ public class RepaymentCalculatorActionsController {
     driver
       .findElement( By.xpath( "//*[@id=\"toggle-3\"]" ) )
       .click();
-    wait.until( ExpectedConditions.visibilityOfElementLocated( By.id( "redemptionTitle" ) ) );
-    driver.findElement( By.xpath(
-      "//*[@id=\"clientAccents\"]/app-portal/app-home/div/div/div[2]/app-overpayments/div/app-redemption/div/div/div/div[1]/div/div[2]/div/div[1]" ) )
-      .click();
+    //wait.until( ExpectedConditions.visibilityOfElementLocated( By.id( "redemptionTitle" ) ) );
+    //driver.findElement( By.xpath(
+    //  "//*[@id=\"clientAccents\"]/app-portal/app-home/div/div/div[2]/app-overpayments/div/app-redemption/div/div/div/div[1]/div/div[2]/div/div[1]" ) )
+    // .click();
     return this;
   }
 
@@ -125,18 +125,23 @@ public class RepaymentCalculatorActionsController {
 
   public RepaymentCalculatorActionsController checkIfRequestMadeRecentlyAndReset() throws InterruptedException {
     Thread.sleep( 1000 );
-    wait.until( ExpectedConditions.visibilityOfElementLocated( By.xpath(
-      "//*[@id=\"clientAccents\"]/app-portal/app-home/div/div/div[2]/app-overpayments/div/app-redemption/div/div/div/div[1]/div/div[1]/a/i" ) ) );
-    WebElement undoButton = driver.findElement( By.xpath(
-      "//*[@id=\"clientAccents\"]/app-portal/app-home/div/div/div[2]/app-overpayments/div/app-redemption/div/div/div/div[1]/div/div[1]/a/i" ) );
-    if (undoButton.isDisplayed()) {
-      undoButton.click();
+
+    boolean isPresent =
+      driver.findElements( By.xpath(
+        "//*[@id=\"clientAccents\"]/app-portal/app-home/div/div/div[2]/app-redemption/div/div/div/div[1]/div/div[1]/a/i" ) )
+        .size() > 0;
+
+    if (isPresent) {
+      driver.findElement( By.xpath(
+        "//*[@id=\"clientAccents\"]/app-portal/app-home/div/div/div[2]/app-redemption/div/div/div/div[1]/div/div[1]/a/i" ) )
+        .click();
     }
     return this;
   }
 
   public RepaymentCalculatorActionsController clickOnRedemptionRequest() {
     wait.until( ExpectedConditions.visibilityOfElementLocated( By.xpath(
+
       "//*[@id=\"clientAccents\"]/app-portal/app-home/div/div/div[2]/app-overpayments/div/app-redemption/div/div/div/div[1]/div/div/div[2]/div" ) ) );
     driver.findElement( By.xpath(
       "//*[@id=\"clientAccents\"]/app-portal/app-home/div/div/div[2]/app-overpayments/div/app-redemption/div/div/div/div[1]/div/div/div[2]/div" ) )
@@ -145,8 +150,8 @@ public class RepaymentCalculatorActionsController {
   }
 
   public RepaymentCalculatorActionsController selectUseSlider() {
-    wait.until( ExpectedConditions.visibilityOfElementLocated( By.xpath( "//*[@id=\"useSlider\"]" ) ));
-    driver.findElement( By.xpath( "//*[@id=\"useSlider\"]" ) ).click();
+    boolean isPresent = driver.findElements( By.xpath( "//*[@id=\"useSlider\"]" ) ).size() > 0;
+    if(!isPresent){}
     return this;
   }
 }

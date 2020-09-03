@@ -1,17 +1,17 @@
 package com.nagini.pages;
 
 public class TestData {
-  private String email;
-  private String password;
-  private String newPassword;
-  private String code;
-  private String fromTransactionDate;
-  private String toTransactionDate;
-  private String paymentDate;
-  private String balance;
-  private String interest;
-  private String instalment;
-  private String securityAnswer;
+  private final String email;
+  private final String password;
+  private final String newPassword;
+  private final String code;
+  private final String fromTransactionDate;
+  private final String toTransactionDate;
+  private final String paymentDate;
+  private final String balance;
+  private final String interest;
+  private final String instalment;
+  private final String securityAnswer;
 
 
   public String getEmail() {
@@ -151,4 +151,21 @@ public class TestData {
         balance, interest, instalment, securityAnswer);
     }
   }
+
+  @Override public String toString() {
+    return "TestData{" +
+      "email='" + email + '\'' +
+      ", password='" + password + '\'' +
+      ", newPassword='" + newPassword + '\'' +
+      ", code='" + code + '\'' +
+      ", fromTransactionDate='" + fromTransactionDate + '\'' +
+      ", toTransactionDate='" + toTransactionDate + '\'' +
+      ", paymentDate='" + paymentDate + '\'' +
+      ", balance='" + balance + '\'' +
+      ", interest='" + interest + '\'' +
+      ", instalment='" + instalment + '\'' +
+      ", securityAnswer='" + securityAnswer + '\'' +
+      '}';
+  }
+
 }
